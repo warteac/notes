@@ -1,4 +1,4 @@
-###常用git命令
+###常用git命令###
 + create a branch and switch to it
 
 $ git checkout -b mybranch  #switch to mybranch, create it if it doesn't exsist
