@@ -23,8 +23,8 @@ student
     "gender":"female",
     "grades": {
        "math":"90",
-       "cs":98,
-       "english":99
+       "cs":"98",
+       "english":"99"
     }
 }
 ```
