@@ -7,12 +7,14 @@
  
 #### 3. json format
 - usually json is like this:
+```
 json_obj 
 {
     "json_key1":"json_value1",
     "json_key2":"json_value2",
     "json_key3":"json_value3"
 }
+```
 - json object can contain json objects
 student 
 {
