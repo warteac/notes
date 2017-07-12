@@ -16,6 +16,7 @@ json_obj
 }
 ```
 - json object can contain json objects
+```
 student 
 {
     "name":"lihua",
@@ -26,6 +27,7 @@ student
        "english":99
     }
 }
+```
 #### 4. three objects in json.h
 - include head file #include <json/json.h>
 - Json::Value  表示各种类型的对象
