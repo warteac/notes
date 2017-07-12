@@ -55,10 +55,11 @@ the Json::Value can be converted into different data type:
 #### 6. data type conversion
 - if you got the error like this "Value is not convertible to double"
 
-maybe the json value can't be converted into double or other data type, but you can convert json value into string first, then convert the string into whatever data type you want.
+maybe the json value can't be converted into double or other data type, but you can convert json value into string first, then convert the string into whatever data type you want. 
 
-- for example, you got double with many decimal places.
-or you got the json value is a double, you want to convert it into int. you can't convert it using asInt() directly.
+- for example, data in json value with many decimal places, it can't convert into a double 
+- or you got the json value is a double, you want to convert it into int. you can't convert it using asInt() directly.
+- apparently, we may got some decimal loss
 ```
   atof(json_obj["key4"].asString().c_str()); // convert a double with many decimal places into string then into double
   atof(json_obj["key5"].asString().c_str()); // convert a double into string then into int
