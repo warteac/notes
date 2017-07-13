@@ -64,3 +64,13 @@ maybe the json value can't be converted into double or other data type, but you 
   atof(json_obj["key4"].asString().c_str()); // convert a double with many decimal places into string then into double
   atof(json_obj["key5"].asString().c_str()); // convert a double into string then into int
 ```
+#### 7. 四舍五入
+```
+double d = 5.8;
+int a = static_cast<int> (d);  // a = 5
+```
+- the simplest way is:
+```
+int b = static_cast<int> (d+0.5); // a = 6
+```
+
