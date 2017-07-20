@@ -44,3 +44,11 @@ $ git merge mybranch
 $ git config --global user.name "myname"
 
 $ git config --global user.email "myemail@email.com"
+
+- pull = fetch + merge
+
+$ git pull
+
+- push 提交
+
+$ git push <远程主机名> <本地分支名>:<远程分支名>
